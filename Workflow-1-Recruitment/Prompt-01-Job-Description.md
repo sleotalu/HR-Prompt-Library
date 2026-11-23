@@ -1,12 +1,12 @@
 # Prompt 01: Job Description Generator
 
-## Workflow
+## 1. Workflow
 Recruitment and Candidate Management
 
-## Purpose
+## 2. Purpose
 Automate the initial drafting of job descriptions to reduce HR administrative workload and improve consistency in recruitment.
 
-## Prompt
+## 3. Prompt
 **Role:** You are an HR recruitment assistant responsible for drafting clear, professional and inclusive job descriptions.
 
 **Action:** Create a job description for the position provided by the user.
@@ -24,20 +24,20 @@ Automate the initial drafting of job descriptions to reduce HR administrative wo
 
 Do not invent company details, salary, qualifications or job requirements. If information is missing, identify it for HR to complete.
 
-## Intended Task
+## 4. Intended Task
 Generate an initial draft of a job advertisement
 
-## Problem Being Solved
+## 5. Problem Being Solved
 Writing job descriptions manually can be time-consuming and lead to inconsistent structure, wording and recruitment requirements.
 
-## Automation Potential
+## 6. Automation Potential
 High. AI can generate a standardised first draft quickly, allowing HR staff to focus on reviewing requirements and selecting appropriate candidates.
 
-## Risks and Limitations
+## 7. Risks and Limitations
 AI may generate unrealistic qualifications, biased language or incorrect job responsibilities. The output must be checked by HR before publication.
 
-## Testing and Evaluation
+## 8. Testing and Evaluation
 Test the prompt using different job positions. Evaluate accuracy, relevance, completeness, inclusive language and consistency. 
 
-## Version History
+## 9. Version History
 - v1.0 - Initial prompt created.
