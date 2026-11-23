@@ -2,6 +2,8 @@
 
 ## 1. Workflow
 
+**Workflow Name:** Recruitment and Selection
+
 **Workflow Stage:** Candidate Screening
 
 **Previous Prompt:** Prompt 01 - Job Description Generator
