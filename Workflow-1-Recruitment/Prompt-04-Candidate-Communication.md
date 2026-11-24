@@ -43,8 +43,7 @@ Generate a structured recruitment communication message containing:
 5. **Next Steps:** Explain any action required from the candidate, including relevant deadlines if provided
 6. **Closing:** End the message professionally
 7. **HR Review Reminder:** Identify any missing information that HR must confirm before sending
-8. Use a professional. friendly and respectful tone. Adapt the message to the relevant recruitment stage.
-9. Do not send message automatically. HR staff must review and approve all communications before sending them to candidates.
+Use a professional. friendly and respectful tone. Adapt the message to the relevant recruitment stage. Do not send message automatically. HR staff must review and approve all communications before sending them to candidates.
 
 ## 4. Intended Task
 The intended task is to support HR staff in drafting recruitment-related communications for job applicants. The prompt can be used to prepare emails and messages for interview invitations, application acknowledgements, recruitment updates and employment application outcomes. It helps ensure that candidates receive timely, clear and professional communication throughout the recruitment process.
