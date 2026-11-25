@@ -1,4 +1,4 @@
-# Prompt 08: Performance Feedback Generator
+# Prompt 08: Performance Feedback
 
 ## 1. Workflow
 
