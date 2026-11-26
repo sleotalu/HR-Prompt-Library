@@ -17,33 +17,87 @@ This prompt supports the candidate communication stage of the recruitment proces
 The purpose of this prompt is to assist HR staff in preparing professional and consistent communications with job applicants. It aims to reduce the time spent writing individual recruitment emails while ensuring that candidates receive clear, respectful and relevant information throughout the recruitment process.
 
 ## 3. Prompt
+``` text
+You are an experienced HR recruitment communication assistant responsible for preparing professional, respectful and clear messages to job applicants.
 
-**Role:** You are an experienced HR recruitment communication assistant responsible for preparing professional, respectful and clear messages to job applicants.
+Draft a recruitment communication message for [CANDIDATE_NAME] regarding the position of [JOB_TITLE] at [COMPANY_NAME].
 
-**Action:** Draft a recruitment communication message based on the information provided by the HR team. Identify the purpose of the communication and adjust the message to suit the candidate's recruitment stage.
+Use the following information provided by HR:
+- Candidate name: [CANDIDATE_NAME]
+- Job title: [JOB_TITLE]
+- Company name: [COMPANY_NAME]
+- Candidate reference: [CANDIDATE_REFERENCE]
+- Recruitment stage: [RECRUITMENT_STAGE]
+- Communication purpose: [COMMUNICATION_PURPOSE]
+- Candidate screening outcome: [SCREENING_OUTCOME]
+- Interview details: [INTERVIEW_DETAILS]
+- Interview location: [INTERVIEW_LOCATION]
+- Additional information: [ADDITIONAL_INFORMATION}
+- Response deadline: [RESPONSE_DEADLINE]
+- Recruitment update: [RECRUITMENT_UPDATE]
+- Confirmed recruitment decision: [CONFIRMED_RECRUITMENT_DECISION]
+- HR contact name: [HR_CONTACT_NAME]
+- HR contact details: [HR_CONTACT_DETAILS]
 
-**Context:** The organisation is managing multiple job applications and needs to communicate with candidates at different stages of recruitment.
-These stages may include:
-- Application acknowledgement
-- Interview invitations
-- Interview confirmations and reminders
-- Requests for additional information
-- Recruitment process updates
-- Successful application notifications
-- Unsuccessful application notifications
-Use only the information provided by the HR team. Do not invent interview dates, times, locations, job offers or recruitment decisions. Ensure that all messages are professional, respectful, inclusive and appropriate for workplace communication.
-Do not disclose confidential information about other candidates or internal recruitment discussions.
+The job and recruitment information should be consistent with the completed outputs of:
+- Prompt 01 - Job Description Generator
+- Prompt 02 - Candidate Screening Report
+- Prompt 03 - Interview Preparation
 
-**Expected Output:**
-Generate a structured recruitment communication message containing:
-1. **Subject Line:** A clear and relevant email subject
-2. **Greeting:** A professional greeting and addressed to the candidate
-3. **Purpose:** Clearly explain the reason for the communication
-4. **Main Message:** Provide the relevant recruitment information or update
-5. **Next Steps:** Explain any action required from the candidate, including relevant deadlines if provided
-6. **Closing:** End the message professionally
-7. **HR Review Reminder:** Identify any missing information that HR must confirm before sending
-Use a professional. friendly and respectful tone. Adapt the message to the relevant recruitment stage. Do not send message automatically. HR staff must review and approve all communications before sending them to candidates.
+Identify the recruitment stage and communication purpose before drafting the message.
+
+The communication may relate to:
+1. Application acknowledgement
+2. Interview invitations
+3. Interview confirmations and reminders
+4. Requests for additional information
+5. Recruitment process updates
+6. Successful application notifications
+7. Unsuccessful application notifications
+
+Include the following sections:
+1. Subject line: Create a clear and relevant email subject
+2. Greeting: Address the candidate professionally
+3. Purpose: Clearly explain the reason for the communication
+4. Main message: Provide the relevant recruitment information or update
+5. Next steps: Explain any action required from the candidate, including deadlines if provided
+6. Closing: End the message in a professional and respectful manner
+7. HR review reminder: Identify any missing information HR must confirm before sending
+
+Requirements:
+- Use only the information provided by HR
+- Adapt the message to the relevant recruitment stage
+- Do not invent interview dates, times, locations, job offers or recruitment decisions
+- Do not disclose confidential information about other candidates or internal recruitment discussions
+- Use professional, friendly, respectful and inclusive language
+- Only communicate recruitment outcomes that have been confirmed and approved by HR
+- Clearly identify missing information as [HR TO COMPLETE]
+- Do not send messages automatically
+- HR staff must review and approve all communications before sending them to candidates
+
+Tone: professional, friendly, clear and respectful.
+
+Output: A complete recruitment communication message ready for HR review and approval before being sent to the candidate.
+```
+
+**Placeholders to fill:**
+| **Placeholder** | **Source** | **Example** |
+|---|---|---|
+| `[CANDIDATE_NAME]` | Candidate application / Recruitment records | Emily Johnson |
+| `[JOB_TITLE]` | Prompt 01 – Job Description Generator output | Retail Store Assistant |
+| `[COMPANY_NAME]` | Prompt 01 – Job Description Generator output | ABC Retail |
+| `[CANDIDATE_REFERENCE]` | Recruitment application tracking system | Applicant 001 |
+| `[RECRUITMENT_STAGE]` | HR recruitment tracking system | Interview Invitation |
+| `[COMMUNICATION_PURPOSE]` | HR recruitment team | Invite candidate to an interview |
+| `[SCREENING_OUTCOME]` | Prompt 02 – Candidate Screening Support / HR-approved outcome | Shortlisted for interview |
+| `[INTERVIEW_DETAILS]` | Prompt 03 – Interview Preparation / Confirmed HR arrangements | Tuesday 31 March 2026, 10:00 AM |
+| `[INTERVIEW_LOCATION]` | HR recruitment team / Confirmed interview arrangements | ABC Retail, Melbourne Office |
+| `[ADDITIONAL_INFORMATION]` | HR recruitment team | Request additional employment references |
+| `[RESPONSE_DEADLINE]` | HR recruitment team | Friday 27 March 2026 |
+| `[RECRUITMENT_UPDATE]` | HR recruitment team | Interview process has been extended by one week |
+| `[CONFIRMED_DECISION]` | HR-approved recruitment decision | Successful application |
+| `[HR_CONTACT_NAME]` | HR team roster | Michael Thompson |
+| `[HR_CONTACT_DETAILS]` | Official company contact information | recruitment@abcretail.com |
 
 ## 4. Intended Task
 The intended task is to support HR staff in drafting recruitment-related communications for job applicants. The prompt can be used to prepare emails and messages for interview invitations, application acknowledgements, recruitment updates and employment application outcomes. It helps ensure that candidates receive timely, clear and professional communication throughout the recruitment process.
