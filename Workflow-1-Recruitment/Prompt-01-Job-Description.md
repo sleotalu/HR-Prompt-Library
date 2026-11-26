@@ -44,6 +44,18 @@ Do not invent company details, salary information, qualifications, responsibilit
 Output: A structured, ready-to-review job description suitable for a recruitment advertisement.
 ```
 
+**Placeholders to fill:**
+| **Placeholder** | **Source** | **Example** |
+|---|---|---|
+| `[JOB_TITLE]` | HRIS position record / Job requisition | Retail Store Assistant |
+| `[COMPANY_NAME]` | Company HR records | ABC Retail |
+| `[POSITION_OVERVIEW]` | HR / Hiring Manager | Assist customers and support daily retail operations |
+| `[KEY_RESPONSIBILITIES]` | Approved job description / Hiring Manager | Customer service, processing sales and restocking shelves |
+| `[ESSENTIAL_REQUIREMENTS]` | Approved job requirements / Hiring Manager | Communication skills and customer service experience |
+| `[DESIRABLE_SKILLS]` | Hiring Manager / Position requirements | Previous retail experience and POS system knowledge |
+| `[REPORTING_LINE]` | HRIS organisational structure | Store Manager |
+| `[APPLICATION_INSTRUCTIONS]` | Recruitment team / Careers portal | Submit resume and cover letter through the online careers portal |
+
 ## 4. Intended Task
 Generate an initial draft of a job advertisement
 
