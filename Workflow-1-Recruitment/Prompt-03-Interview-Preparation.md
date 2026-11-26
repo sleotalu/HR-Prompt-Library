@@ -18,28 +18,57 @@ The purpose of this prompt is to help HR staff prepare relevant, structured and 
 It aims to reduce the time spent manually developing interview questions while ensuring that questions are relevant to the position and aligned with the organisation's recruitment requirements.
 
 ## 3. Prompt
+```text
+You are an experienced HR recruitment assistant responsible for supporting fair, professional and structured interview preparation. Develop a structured interview guide for the position of [JOB_TITLE] at [COMPANY_NAME]
 
-**Role:** You are an experienced HR recruitment assistant responsible for supporting fair, professional and structured interview preparation.
+Use the following instructions provided by HR:
+- Job description: [JOB_DESCRIPTION]
+- Essential requirements: [ESSENTIAL_REQUIREMENTS]
+- Desirable criteria: [DESIRABLE_CRITERIA]
+- Candidate resume: [CANDIDATE_RESUME]
+- Candidate screening report: [CANDIDATE_SCREENING_REPORT]
+- Candidate strengths: [CANDIDATE_STRENGTHS]
+- Areas requiring clarification: [AREAS_FOR_CLARIFICATION]
+- Candidate reference: [CANDIDATE REFERENCE]
 
-**Action:** Develop a set of interview questions based on the provided job description, essential selection criteria and candidate information. Create questions that assess the candidate's relavant skills, qualifications, work experience, problem-solving abilities and suitability for the position.
+The job description must be based on the completed output of Prompt 01 - Job Description Generator. The candidate screening report and candidate information must be based on the completed output of Prompt 02 - Candidate Screening Support. Use the job requirements and candidate screening results to develop relevant interview questions.
 
-**Context:** The organisation has completed the initial candidate screening process and shortlisted applicants for an interview.
-The HR team needs interview questions that are relevant to the advertised position and allow candidates to demonstrate their abilities and experience. 
-Use the provided job description and selection criteria as the main sources of information. Do not create questions based on protected personal characteristics or unrelated personal information.
-Ensure that the questions are professional, inclusive and appropriate for a workplace interview.
+Include the following sections:
+1. Position Overview: Briefly identify the job title and key responsibilities
+2. Technical Questions: Develop questions relating to the skills and knowledge required for the position
+3. Behavioural Questions: create questions exploring the candidate's previous workplace experiences and actions
+4. Situational Questions: Develop realistic workplace scenarios to assess the candidate's problem-solving and decision-making abilities
+5. Follow-up Questions: Include additional questions to clarify or explore the candidate's responses
+6. Evaluation Criteria: Provide suggested job-related criteria HR can use to assess candidate answers
+7. Interview Structure: Recommend a logical order for asking the interview questions
 
-**Expected Output:** 
-Generate a structured interview guide containing:
-- **Position Overview:** Briefly identify the job title and key responsibilities
-- **Technical Questions:** Questions relating to the skills and knowledge required for the position
-- **Behavioural Questions:** Questions that explore previous workplace experiences and actions
-- **Situational Questions:** Questions that assess how candidates may respond to workplace scenarios
-- **Follow-up Questions:** Additional questions to clarify or explore candidate responses
-- **Evaluation Criteria:** Suggested job-related criteria HR can use to assess candidate answers
-- **Interview Structure:** A suggested order for asking the questions
+Requirements:
+- Use the job description and candidate screening report as the main sources of information
+- Address relevant strengths and areas requiring further clarification identified during screening
+- Ensure questions are professional, inclusive and appropriate for a workplace interview
+- Do not create questions based on protected personal characteristics or unrelated personal information
+- Do not assume qualifications, experience or skills that have not been provided
+- Ensure all shortlisted candidates are assessed against consistent job-related criteria
+- Do not make the final hiring decision
 
-Provide clear, professional and unbiased questions. Ensure that all shortlisted candidates are assessed against consistent job-related criteria.
-Do not make the final hiring decision. The HR recruitment team is responsible for conducting interviews and evaluating candidates. 
+Tone: professional, objective, inclusive and unbiased.
+
+Output: A structured interview guide that HR can use to prepare and conduct a consistent and fair interview.
+
+The HR recruitment team is responsible for conducting interviews, evaluation candidate responses and making all final hiring decisions.
+```
+
+**Placeholders to fill:**
+| **Placeholder** | **Source** | **Example** |
+|---|---|---|
+| `[JOB_DESCRIPTION]` | Prompt 01 – Job Description Generator output | Retail Store Assistant job description |
+| `[ESSENTIAL_REQUIREMENTS]` | Prompt 01 – Essential skills and qualifications section | Communication skills and customer service experience |
+| `[DESIRABLE_CRITERIA]` | Prompt 01 – Desirable skills section | Previous retail experience and POS system knowledge |
+| `[CANDIDATE_RESUME]` | Candidate application / Submitted resume | Resume containing employment history, qualifications and skills |
+| `[CANDIDATE_SCREENING_REPORT]` | Prompt 02 – Candidate Screening Support output | Screening report identifying relevant experience and skills |
+| `[CANDIDATE_STRENGTHS]` | Prompt 02 – Relevant skills and work experience section | Customer service experience and teamwork |
+| `[AREAS_FOR_CLARIFICATION]` | Prompt 02 – Requirements that are missing or unclear | Limited information about previous cash-handling experience |
+| `[CANDIDATE_REFERENCE]` | Recruitment application tracking system | Applicant 001 |
 
 ## 4. Intended Task
 The intended task is to assist HR staff in preparing interview questions and evaluation criteria for shortlisted candidates. The prompt helps organise interview questions into technical, behavioural and situational categories so that HR staff can conduct more structured and consistent interviews.
