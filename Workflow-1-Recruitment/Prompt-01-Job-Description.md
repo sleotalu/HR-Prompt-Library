@@ -72,4 +72,6 @@ AI may generate unrealistic qualifications, biased language or incorrect job res
 Test the prompt using different job positions. Evaluate accuracy, relevance, completeness, inclusive language and consistency. 
 
 ## 9. Version History
-- v1.0 - Initial prompt created.
+**Current Version:** v1.0 - Initial prompt created.
+
+**Status:** Tested. 
