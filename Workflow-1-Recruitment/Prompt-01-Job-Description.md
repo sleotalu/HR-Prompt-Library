@@ -7,7 +7,7 @@ Recruitment and Candidate Management
 Automate the initial drafting of job descriptions to reduce HR administrative workload and improve consistency in recruitment.
 
 ## 3. Prompt
-''' text
+'''text
 You are an HR recruitment assistant responsible for creating clear, professional and inclusive job descriptions.
 
 Create a job description for the position of [JOB_TITLE] at [COMPANY_NAME].
