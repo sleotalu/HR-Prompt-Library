@@ -17,27 +17,59 @@ This prompt is used after an employee complaint has been categorised and reviewe
 The purpose of this prompt is to assist HR staff in preparing clear, respectful and professional responses to employee complaints. It aims to improve the consistency and efficiency of complaint communication while ensuring employees receive appropriate acknowledgement, information about the complaint-handling process and guidance on the next steps.
 
 ## 3. Prompt
+``` text
+You are an experienced HR assistant responsible for preparing professional, fair and respectful responses to employee complaints.
 
-**Role:** You are an experienced HR assistant responsible for preparing professional, fair and respectful responses to employee complaints.
+Review the employee complaint, complaint categorisation report and relevant HR policy review findings. Use this information to draft an appropriate response that acknowledges the employee's concerns, explains the relevant next steps and provides information about the complaint-handling process.
 
-**Action:** Review the employee complaint, complaint categorisation report and relevant HR policy review findings. Use this information to draft an appropriate response that acknowledges the employee's concerns, explains the relevant next steps and provides information about the complaint-handling process.
+Use the following information:
+- Company name: [COMPANY_NAME]
+- Employee name: [EMPLOYEE_NAME]
+- Employee email address: [EMPLOYEE_EMAIL]
+- Department: [DEPARTMENT]
+- Date complaint received: [DATE_RECEIVED]
+- Employee complaint: [EMPLOYEE_COMPLAINT]
+- Complaint categorisation report: [COMPLAINT_CATEGORISATION_REPORT]
+- HR policy review findings: [HR_POLICY_REVIEW_FINDINGS]
+- Next steps identified by HR: [HR_NEXT_STEPS]
+- Additional information required from employee: [ADDITIONAL_INFORMATION_REQUIRED]
+- HR contact name: [HR_CONTACT_NAME]
+- Available support information: [SUPPORT_INFORMATION]
 
-**Context:** The organisation has received an employee complaint and HR has completed initial complaint categorisation and policy review stages. The HR team now needs to communicate with the employee in a professional and supportive manner while maintaining confidentiality and following organisational procedures.
-Use only the information provided by HR. Do not make assumptions about the complaint, disclose confidential information about other employees or promise a particular outcome. Use neutral and respectful language. Ensure the response does not dismiss the employee's concerns or suggest that a final decision has been made before the appropriate review or investigation is completed.
-
-**Expected Output:**
-Generate a structured employee complaint response containing:
-1. Appropriate email subject line
-2. Professional greeting
-3. Acknowledgement of the employee's complaint
-4. Brief summary of the concerns raised
-5. Explanation of the relevant complaint-handling process
-6. Information about the next steps HR intends to take, based on the details provided
+Include the following sections:
+1. Email subject line
+2. Greeting
+3. Acknowledgement of complaint
+4. Brief summary of concerns
+5. Explanation of relevant complaint-handling process
+6. Information about the next steps HR intends to take, based on details provided
 7. Any additional information or documentation required from the employee
-8. Relevant contact or support information, where provided
+8. Relevant contact or support information where provided
 9. Professional closing
-Present the response in a clear, supportive and professional format. Maintain confidentiality and avoid making promises about the outcome ot timeframe unless these have been confirmed by HR.
-Do not send the response automatically. HR staff must review and approve the communication before sending it to the employee.
+
+Tone: supportive, respectful and understanding
+
+Output: Generate a structured employee complaint response in email format, with a clear subject line, professional greeting, organised paragraphs and appropriate closing.
+
+Do not include: assumptions, promises about complaint outcomes or unconfirmed timeframes, confidential information about other employees, unsupported statements or conclusions that a final decision has been made.
+```
+
+**Placeholders to fill:**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee complaint records | Sarah Mitchell |
+| [EMPLOYEE_EMAIL] | Employee records | sarah.mitchell@example.com |
+| [DEPARTMENT] | Employee records | Customer Service |
+| [DATE_RECEIVED] | HR complaint records | 25 November 2026 |
+| [EMPLOYEE_COMPLAINT] | Original employee complaint | Complaint about repeated public criticism by a supervisor and concerns about unequal workload distribution |
+| [COMPLAINT_CATEGORISATION_REPORT] | Prompt 05 – Employee Complaint Categorisation | Workplace conflict, management concerns and potential bullying requiring further assessment |
+| [HR_POLICY_REVIEW_FINDINGS] | Prompt 06 – HR Policy Review | Relevant Workplace Bullying and Harassment Policy and Employee Grievance Procedure identified for review |
+| [HR_NEXT_STEPS] | HR review findings | Arrange a confidential discussion with the employee and review the reported incidents |
+| [ADDITIONAL_INFORMATION_REQUIRED] | HR review findings | Specific dates, examples of incidents and any relevant supporting emails |
+| [HR_CONTACT_NAME] | HR department contact details | Emily Carter |
+| [HR_CONTACT_EMAIL] | ABC Retail HR contact details | hr@abcretail.example.com |
+| [SUPPORT_INFORMATION] | ABC Retail employee support information | Employee Assistance Program (EAP), if available |
 
 ## 4. Intended Task
 The intended task is to support the complaint response stage of the employee complaint-handling process. HR staff can use this prompt to prepare responses after reviewing and categorising a complaint and checking the relevant organisational policies. This helps ensure employees receive consistent communication, understand the next steps and know how their concerns will be handled.
