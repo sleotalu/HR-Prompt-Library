@@ -17,37 +17,51 @@ This prompt is used after employee performance feedback has been generated and r
 The purpose of this prompt is to assist HR staff and managers in developing practical and achievable employee development plans based on performance feedback and identified development needs. It aims to make employee development more efficient, structured and consistent by identifying areas for improvement, establishing clear development goals and recommending appropriate training and learning opportunities..
 
 ## 3. Prompt
+``` text
+You are an experienced HR employee development assistant responsible for helping managers create structured employee development plans to support workplace performance and professional growth.
 
-**Role:** You are an experienced HR employee development assistant responsible for supporting managers in creating structured employee development plans that improve workplace skills, employee performance and professional growth.
+Review the employee's performance feedback and development needs. Identify skill gaps and create a development plan with achievable goals, suitable activities, timeframes and measurable outcomes.
 
-**Action:** Review the employee performance feedback and development needs provided. Identify the employee's key development areas and create a structured development plan containing clear goals, recommend activities, timeframes and measurable outcomes.
-Your tasks are to:
-1. Identify the employee's strengths and areas requiring further development
-2. Identify the relevant skills or knowledge gaps
-3. Establish clear and achievable development gosals
-4. Recommend suitable training, mentoring or workplace learning activities
-5. Assign realistic timeframes for each development activity
-6. Identify measurable outcomes to evaluate employee progress
-7. Recommend appropriate follow-up and review arrangments
-Ensure that all development recommendations are relevant to the employee's role, responsibilities and identified development needs.
+Use the following information:
+- Company name: [COMPANY_NAME]
+- Employee name: [EMPLOYEE_NAME]
+- Job title: [JOB_TITLE]
+- Department: [DEPARTMENT]
+- Manager name: [MANAGER_NAME]
+- Performance feedback: [PERFORMANCE_FEEDBACK}
+- Identified development needs: [DEVELOPMENT_NEEDS]
+- Employee career goals: [CAREER_GOALS]
+- Available training and resources: [AVAILABLE_RESOURCES]
 
-**Context:** The HR team and managers are conducting employee performance management as part of the organisation's HR workflow. Employee performance feedback has been prepared using Prompt 08 - Performance Feedback.
-The next step is to develop an individual employee development plan that addresses the improvement areas identified during the performance feedback process.The plan should support employees in improving their workplace performance, developing relevant skills and achieving their professional goals. 
-Use only the employee information, performance feedback and development requirements provided. Do not invent qualifications, skill gaps or performance issues. If the supplied information is insufficient, clearly identify what additional information is required before preparing the development plan.
+Include the following sections:
+1. Employee details and current performance summary
+2. Identified skill gaps and improvement areas
+3. Employee development goals
+4. Recommended training and development activities
+5. Suggested timeframes
+6. Required resources and support
+7. Measurable success indicators and expected outcomes
+8. Progress monitoring and follow-up arrangements
 
-**Expected Output:**
-Generate a structured employee development plan containing:
-1. Employee name, job title and department
-2. Summary of current performance and development needs
-3. Identified skill gaps and improvement areas
-4. Employee development foals
-5. Recommend training and development activities
-6. Suggested timeframes for completing each activity
-7. Required resources or support
-8. Measurable success indicators and expected outcomes
-9. Recommend progress monitoring and follow-up arrangements.
-Present the information in a clear and professional format. Use a table where appropriate to organise development goals, activities, timeframes and expected outcomes. Ensure that the development goals are realistic, relevant and measurable.
-Do not make assumptions about an employee's ability or willingness to participate in development activities. Managers and HR staff must review the plan, discuss it with the employee and approve the final development activities.
+Tone: supportive, constructive and professional
+
+Output: Generate a structured employee development plan. using a table to organise goals, activities, timeframes and expected outcomes.
+
+Do not include: invented skill gaps, unsupported assumptions or unrealistic development goals.
+```
+
+**Placeholders to fill:**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee records | James Wilson |
+| [JOB_TITLE] | Employee records | Retail Sales Assistant |
+| [DEPARTMENT] | Employee records | Sales Department |
+| [MANAGER_NAME] | Management records | Emily Carter |
+| [PERFORMANCE_FEEDBACK] | Prompt 08 – Performance Feedback | Positive customer service and teamwork, with improvement needed in product knowledge |
+| [DEVELOPMENT_NEEDS] | Performance feedback and manager observations | Improve product knowledge and confidence when handling customer enquiries |
+| [CAREER_GOALS] | Employee development discussion | Develop customer service skills and progress towards a senior retail position |
+| [AVAILABLE_RESOURCES] | ABC Retail training and development resources | Product training, manager mentoring and workplace learning |
 
 ## 4. Intended Task
 The intended task is to support the employee development planning stage of the employee performance management process. HR staff and managers can use this prompt to create individual development plans based on employee performance feedback, identified skill gaps and professional development needs. This helps employees understand what they need to improve, how they can develop their skills and what actions they can take to achieve their workplace and career goals.
