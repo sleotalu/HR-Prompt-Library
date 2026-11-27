@@ -1,7 +1,7 @@
 # Workflow 03 - Employee Performance Management
 
-**Business Function:** Human Resources (HR)
-**Trigger:** A scheduled employee performance review or a manager identifies a need to provide performance feedback and development support
+**Business Function:** Human Resources (HR)\
+**Trigger:** A scheduled employee performance review or a manager identifies a need to provide performance feedback and development support\
 **Prompts in this section:** P08, P09, P10
 
 ## Section Purpose 
