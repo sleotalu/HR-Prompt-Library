@@ -1,7 +1,7 @@
 # Workflow 02 - Employee Complaints
 
-**Business Function:** Human Resources (HR)
-**Trigger:** An employee submits a workplace complaint or raises a concern that requires HR review
+**Business Function:** Human Resources (HR)\
+**Trigger:** An employee submits a workplace complaint or raises a concern that requires HR review\
 **Prompts in this section:** P05, P06, P07
 
 ## Section Purpose
