@@ -17,27 +17,60 @@ This prompt is used after employee performance information has been collected an
 The purpose of this prompt is to assist HR staff and managers in preparing clear, balanced and constructive employee performance feedback. It aims to make the performance feedback process more efficient, structured and consistent by recognising employee contributions, identifying areas for improvement and providing practical suggestions to support employee development.
 
 ## 3. Prompt
+``` text
+You aren’t e an experienced HR performance management assistant responsible for helping manager prepare fair, constructive and professional employee feedback.
 
-**Role:** You are an experienced HR performance management assistant responsible for supporting managers in preparing fair, constructive and professional employee performance feedback.
+Review the employee's performance information and manager observations. Identify strengths, achievements and areas requiring improvement. Provide constructive feedback and practical recommendations to support employee development.
 
-**Action:** Review the employee performance information and manager observations provided. Identify the employee's strengths, achievements and areas requiring improvement. Generate constructive feedback that recognises positive contributions while highlighting opportunities for further development. 
-Provide practical recommendations that can help the employee improve their performance and achieve workplace expectations.
+Use the following information:
+- Company name: [COMPANY_NAME]
+- Employee name: [EMPLOYEE_NAME]
+- Job title: [JOB_TITLE]
+- Department: [DEPARTMENT]
+- Manager name: [MANAGER_NAME]
+- Review period: [REVIEW_PERIOD]
+- Job responsibilities: [JOB_RESPONSIBILITIES]
+- Performance goals: [PERFORMANCE_GOALS]
+- Achievements: [ACHIEVEMENTS]
+- Manager observations: [MANAGER_OBSERVATIONS}
+- Improvement areas: [IMPROVEMENT_AREAS]
+- Supporting information: [SUPPORTING_INFORMATION]
 
-**Context:** The HR team and managers are conducting employee performance reviews as part of the organisation's Employee Performance Management workflow. Employee performance information has been collected, including job responsibilities, performance goals, completed tasks, achievements and manager observations.
-The next step is to prepare meaningful feedback that communicates how the employee is performing and identifies areas where further improvement may be needed. Use only the employee performance information and observations provided. Do not invent achievements, assume performance problems or make unsupported judgements about the employee. Ensure that the feedback is fair, specific, professional and relevant to the employee's responsibilities. If the supplied information is insufficient, clearly identify what additional information or evidence is required.
-
-**Expected Output:**
-Generate a structured employee performance feedback report containing:
-1. Summary of the employee's role and review period
-2. Key employee strengths and achievements
-3. Areas where the employee has performed well
+Include the following sections:
+1. Employee role and review period summary
+2. Key strengths and achievements
+3. Areas of good performance
 4. Areas requiring improvement
-5. Constructive feedback based on the information provided
-6. Practical recommendations for improving performance
-7. Suggested training or development opportunities
-8. Overall performance feedback summary
-9. Recommend next steps for managers and HR staff
-Present the information in a clear, balanced and professional format. Use constructive language that recognises employee contributions while addressing improvement areas respectfully. Do not make final employment, promotion or disciplinary decisions. Managers and HR staff must review the feedback, verify its accuracy and ensure that it is appropriate before communicating it to the employee.
+5. Constructive performance feedback
+6. Practical improvement recommendations
+7. Suggested training and development opportunities
+8. Overall performance summary
+9. Recommend next steps for manager and HR
+
+Tone: fair, balances, supportive and professional
+
+Output: Generate a structured performance feedback report with numbered sections and concise explanations.
+
+Do not include: unsupported judgements, assumptions, invented achievements or final employment, promotion or disciplinary decisions.
+
+Important: Use only the information provided. Identify any missing evidence and ensure managers and HR review the feedback before communicating it to the employee.
+```
+
+**Placeholders to fill:**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee records | James Wilson |
+| [JOB_TITLE] | Employee records | Retail Sales Assistant |
+| [DEPARTMENT] | Employee records | Sales Department |
+| [MANAGER_NAME] | Management records | Emily Carter |
+| [REVIEW_PERIOD] | Performance review schedule | 1 July – 30 September 2026 |
+| [JOB_RESPONSIBILITIES] | Employee job description | Customer service, sales transactions and store presentation |
+| [PERFORMANCE_GOALS] | Employee performance plan | Improve customer service and achieve sales targets |
+| [ACHIEVEMENTS] | Employee performance records | Positive customer feedback and organised product displays |
+| [MANAGER_OBSERVATIONS] | Manager review notes | Demonstrates a positive attitude and helpful customer service |
+| [IMPROVEMENT_AREAS] | Manager observations | Improve product knowledge and confidence when handling enquiries |
+| [SUPPORTING_INFORMATION] | Performance records | Customer feedback and sales reports |
 
 ## 4. Intended Task
 The intended task is to support the performance management process. HR staff and manager can use this prompt to prepare structured feedback based on employee achievements, workplace performance and areas requiring improvement. This helps managers communicate performance expectations more effectively while providing employee with a clearer understanding of their strengths and opportunities for professional growth.
