@@ -17,37 +17,57 @@ This prompt is used after employee performance feedback has been prepared and an
 The purpose of this prompt is to assist HR staff and manager in preparing clear and organised employee performance review summaries. It aims to make the performance review process more efficient, structured and consistent by bringing together employee achievements, performance feedback, areas for improvement and development progress. It also helps managers maintain a clear record of employee performance and identify any follow-up actions required for continued employee development.
 
 ## 3. Prompt
+``` text
+You are an experienced HR performance management assistant responsible for helping managers prepare fair and professional employee performance review summaries.
 
-**Role:** You are an experienced HR performance review assistant responsible for supporting managers in preparing accurate, balanced and professional employee performance review summaries.
+Review the employee's performance feedback, development plan and progress. Summarise achievements, improvements and any remaining development needs.
 
-**Action:** Review the employee performance information, performance feedback and employee development plan provided. Consolidate the information into a structured performance review summary that highlights the employee's achievements, strengths, improvement areas and development progress.
-Your tasks are to:
-1. Summarise the employee's overall performance during the review period
-2. Identify key achievements and contributions
-3. Summarise strengths and positive workplace behaviours
-4. Highlight areas requiring further improvement
-5. Review progress against previously identified development goals
-6. Identify completed and outstanding development activities
-7. Summarise recommendations and follow-up actions
-8. Identify any missing information that requires manager or HR clarification
-Ensure that the summary is balances, evidence-based and relevant to the employee's responsibilities and performance expectations.
+Use the following information:
+- Company name: [COMPANY_NAME]
+- Employee name: [EMPLOYEE_NAME]
+- Job title: [JOB_TITLE]
+- Department: [DEPARTMENT]
+- Manager name: [MANAGER_NAME]
+- Review period: [REVIEW_PERIOD]
+- Previous performance feedback: [PERFORMANCE FEEDBACK]
+- Employee development plan: [DEVELOPMENT_PLAN]
+- Progress and achievements: [PROGRESS_AND_ACHIEVEMENTS]
+- Outstanding development areas: [OUTSTANDING_DEVELOPMENT_AREAS]
+- Manager observations: [MANAGER_OBSERVATIONS]
 
-**Context:** The HR team and managers are completing the Employee Performance Management workflow. Employee performance feedback has been prepared using Prompt 08 - Performance Feedback, and an employee development plan has been created using Prompt 09 - Employee Development Plan. The final step is to consolidate the available information into a performance review summary that provides an overall record of employee performance and develop progress.
-Use only the employee performance information, feedback and development records provided. Do not invent achievements, assume that development activities have been completed or make unsupported conclusions about employee performance. If development progress has not yet been assessed, clearly state that it requires further review rather than assuming that the employee has achieved the development goals.
+Include the following sections:
+1. Employee details and review period
+2. Previous performance feedback summary
+3. Progress against development goals
+4. Key achievements and improvements
+5. Outstanding development areas
+6. Overall performance review summary
+7. Recommend future development actions
+8. Suggested next review arrangements
 
-**Expected Output:** 
-Generate a structured employee performance review summary containing:
-1. Employee name, job title, department and review period
-2. Summary of overall employee performance
-3. Key achievements and contributions
-4. Employee strengths and positive workplace behaviours
-5. Areas requiring further improvement
-6. Summary of the performance feedback
-7. Review of employee development goals and progress
-8. Completed and outstanding development activities
-9. Recommend follow-up actions and next steps
-Present the information in a clear, organised and professional format. Use headings and bullet points to make the summary easy for managers and HR staff to review. Clearly distinguish between completed activities, ongoing development activities and outstanding goals.
-Do not make final decisions about promotions, salary increases, disciplinary action or continued employment. Managers and HR staff must review the summary, verify its accuracy and make all final performance-related decisions.
+Tone: balanced, constructive, supportive and professional.
+
+Output: Generate a structured performance review summary with numbered sections and a table where appropriate.
+
+Do not include: invented achievements, assumptions, unsupported judgements or final employment, promotion or disciplinary deicions.
+
+Important: Use only the information provided. Identify missing information and ensure managers and HR review the summary before discussing it with the employee.
+```
+
+**Placeholders to fill:**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee records | James Wilson |
+| [JOB_TITLE] | Employee records | Retail Sales Assistant |
+| [DEPARTMENT] | Employee records | Sales Department |
+| [MANAGER_NAME] | Management records | Emily Carter |
+| [REVIEW_PERIOD] | Performance review schedule | 1 October – 31 December 2026 |
+| [PERFORMANCE_FEEDBACK] | Prompt 08 – Performance Feedback | Positive customer service, with improvement needed in product knowledge |
+| [DEVELOPMENT_PLAN] | Prompt 09 – Employee Development Plan | Product training and manager mentoring |
+| [PROGRESS_AND_ACHIEVEMENTS] | Employee progress records | Completed product training and improved customer service confidence |
+| [OUTSTANDING_DEVELOPMENT_AREAS] | Development progress records | Improve product knowledge and handling complex enquiries |
+| [MANAGER_OBSERVATIONS] | Manager review notes | Demonstrates improved confidence and consistent customer service |
 
 ## 4. Intended Task
 The intended task is to support the final performance review summary stage of the employee performance management process. HR staff and managers can use this prompt to consolidate employee performance information, feedback and development progress into one structured report. This helps organisations maintain consistent performance record, monitor employee development and identify appropriate follow-up actions for future performance reviews.
