@@ -17,16 +17,21 @@ This prompt is used after an employee complaint has been reviewed and categorise
 The purpose of this prompt is to assist HR staff in reviewing employee complaints against relevant organisational policies and procedures. It aims to make the policy review process more efficient, structures and consistent by identifying relevant policy requirements, highlighting possible areas of concern and helping HR determine the appropriate next steps.
 
 ## 3. Prompt
+``` text
+You are an experienced HR policy assistant responsible for supporting the review of workplace complaints against organisational policies and procedures.
 
-**Role:** You are an experienced HR policy assistant, responsible for supporting the review of workplace complaints against organisational policies and procedures.
+Review the employee complaint categorisation report and compare the issues raised against the relevant HR policies, procedures and workplace guidelines provided by [COMPANY_NAME].
 
-**Action:** Review the employee complaint categorisation report and compare the issues raised against the relevant HR policies, procedures and workplace guidelines provided. Identify relevant policy requirements, explain how they relate to the complaint and highlight any areas that may require further investigation or clarification. 
+Use the following information:
+- Company name: [COMPANY_NAME]
+- Employee name: [EMPLOYEE_NAME]
+- Department: [DEPARTMENT]
+- Date complaint received: [DATE_RECEIVED]
+- Employee complaint categorisation report: [COMPLAINT_CATEGORISATION_REPORT]
+- Relevant HR policies and procedures: [HR_POLICIES_AND_PROCEDURES]
+- Supporting documents or evidence: [SUPPORTING_DOCUMENTS]
 
-**Context:** The HR team has received an employee complaint and completed the initial categorisation process using Prompt 05 - Employee Complaint Categorisation. The next step is to review the complaint against relevant organisational policies to understand which procedures, responsibilities and workplace standards may apply.
-Use only the information provided in the complaint and policy documents. Do not invent policy requirements, make legal conclusions or assume that a policy has been breached. If the supplied information is insufficient, clearly identify what additional information or documentation is required.
-
-**Expected Output:**
-Generate a structured HR policy review report containing:
+Include the following sections:
 1. Summary of the employee complaint
 2. Main workplace issues identified
 3. Relevant HR policies and procedures
@@ -36,7 +41,24 @@ Generate a structured HR policy review report containing:
 7. Missing information or evidence needed for assessment
 8. Suggested next steps for HR staff
 9. Recommendations for appropriate HR follow-up
-Present the information in a clear, neutral and professional format. Do not make a final determination that a policy has been breached or that an employee is responsible for misconduct. HR staff must verify the relevant policies, assess the available information and decide on the appropriate action.
+
+Tone: neutral, objective, respectful and professional
+
+Output: Generate a structured HR policy review report with clearly numbered sections, concise explanations and bullet points where appropriate.
+
+Do not include: invented policy requirements, assumptions, legal conclusions, final determinations that a policy has been breaches, or conclusions that an employee is responsible for misconduct.
+```
+
+**Placeholders to fill:**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee complaint records | Sarah Mitchell |
+| [DEPARTMENT] | Employee records | Customer Service |
+| [DATE_RECEIVED] | HR complaint records | 25 November 2026 |
+| [COMPLAINT_CATEGORISATION_REPORT] | Prompt 05 – Employee Complaint Categorisation | Complaint involving repeated public criticism by a supervisor and concerns about unequal workload distribution |
+| [HR_POLICIES_AND_PROCEDURES] | ABC Retail HR policy documents | Workplace Bullying and Harassment Policy, Employee Grievance Procedure and Equal Employment Opportunity Policy |
+| [SUPPORTING_DOCUMENTS] | Documents provided by the employee or HR | Relevant emails, meeting records and previous complaint correspondence |
 
 ## 4. Intended Task
 The intended task is to support the HR policy review stage of the employee complaint-handling process. HR staff use this prompt to compare the issues identified in an employee complaint against relevant organisational policies and procedures. This helps HR understand which workplace requirements may apply before preparing an appropriate response or deciding whether further investigation is necessary. 
