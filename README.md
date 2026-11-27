@@ -26,23 +26,23 @@ HR-Prompt-Library/
 ├── README.md
 │
 ├── Workflow-1-Recruitment/
-│   ├── README.md
 │   ├── Prompt-01-Job-Description-Generator.md
 │   ├── Prompt-02-Candidate-Screening.md
 │   ├── Prompt-03-Interview-Preparation.md
-│   └── Prompt-04-Candidate-Communication.md
+│   ├── Prompt-04-Candidate-Communication.md
+│   └── README.md
 │
 ├── Workflow-2-Employee-Complaints/
-│   ├── README.md
 │   ├── Prompt-05-Employee-Complaint-Categorisation.md
 │   ├── Prompt-06-HR-Policy-Review.md
-│   └── Prompt-07-Employee-Complaint-Response.md
+│   ├── Prompt-07-Employee-Complaint-Response.md
+│   └── README.md
 │
 └── Workflow-3-Employee-Performance-Management/
-    ├── README.md
     ├── Prompt-08-Performance-Feedback.md
     ├── Prompt-09-Employee-Development-Plan.md
-    └── Prompt-10-Performance-Review-Summary.md
+    ├── Prompt-10-Performance-Review-Summary.md
+    └── README.md
 ```
 
 ## Library Summary Table
