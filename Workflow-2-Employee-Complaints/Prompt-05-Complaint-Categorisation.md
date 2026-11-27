@@ -17,24 +17,49 @@ This prompt is used when an employee submits a complaint to the HR department. I
 The purpose of this prompt is to assist HR staff in reviewing and categorising employee complaints based on the information provided. It aims to make the initial complaint-handling process more efficient, organised and consistent by identifying the nature of each complaint and determining which issues may require further investigation or escalation.
 
 ## 3. Prompt
+``` text
+You are an experienced HR assistant responsible for supporting the fair and consistent review of employee complaints.
 
-**Role:** You are an experienced HR assistant responsible for supporting the fair and consistent review of employee complaints.
+Review and categorise an employee complaint submitted to [COMPANY_NAME] based on the information provided by the employee.
 
-**Action:** Review the employee complaint and identify the main issues raised. Categorise the complaint according to its nature, identify relevant details and highlight any concerns that may require urgent attention or further investigation.
+Use the following information:
+- Employee name: [EMPLOYEE_NAME]
+- Department: [DEPARTMENT]
+- Date complaint received: [DATE_RECEIVED]
+- Employee complaint: [INSERT_COMPLAINT_DETAILS]
 
-**Context:** The organisation receives employee complaints relating to workplace experiences, management practices and employment conditions. HR staff need to organise and understand each complaint before reviewing relevant policies and determining the appropriate next steps. Use only the information provided in the complaint. Do not make assumptions, decide whether allegations are true or make conclusions about the people involved. Treat all complaint information as confidential and use respectful, neutral language.
-
-**Expected Output:**
-Generate a structured employee complaint categorisation report containing:
+Include the following sections:
 1. Complaint summary
-2. Main issue or concern raised
+2. Main issues or concerns raised
 3. Complaint category (e.g. bullying, discrimination, harassment, workplace conflict, workload, management concerns or workplace safety)
-4. Relevant people, departments or work areas mentioned, where provided
-5. Key events, dates or details identified in the complaint
-6. Missing or unclear information that may require clarification
+4. Relevant people, departments or work areas mentioned
+5. Key events, dates and details identified
+6. Missing or unclear information requiring clarification
 7. Potential urgency or safety concerns requiring HR attention
 8. Suggested next steps for HR review
-Present the information in a clear, neutral and professional format. Do not determine whether the complaint is valid or make disciplinary decisions. HR staff must review the complaint, assess the circumstances and determine the appropriate response.
+
+Tone: neutral, respectful, confidential and professional.
+
+Output: Generate a structured employee complaint categorisation report clearly numbered sections, concise explanations and bullet points where appropriate.
+```
+
+**Placeholders to fill**
+| Placeholder | Source | Example (ABC Retail) |
+|---|---|---|
+| [COMPANY_NAME] | Organisation details | ABC Retail |
+| [EMPLOYEE_NAME] | Employee complaint form | Sarah Mitchell |
+| [EMPLOYEE_REFERENCE] | HR employee records | EMP-024 |
+| [DEPARTMENT] | Employee records | Customer Service |
+| [JOB_TITLE] | Employee records | Retail Sales Assistant |
+| [DATE_RECEIVED] | HR complaint records | 25 November 2026 |
+| [EMPLOYEE_COMPLAINT] | Employee complaint form | My supervisor has repeatedly criticised my work during team meetings and assigned me additional tasks compared with other team members. |
+| [PEOPLE_INVOLVED] | Employee complaint form | Sarah Mitchell (employee), Store Supervisor |
+| [WORK_AREA] | Employee complaint form | Melbourne Store |
+| [KEY_EVENTS_AND_DATES] | Employee complaint form | Repeated incidents during the past few weeks |
+| [SUPPORTING_INFORMATION] | Documents provided by the employee | Relevant emails and meeting records |
+| [PREVIOUS_ACTIONS] | Employee complaint form or HR records | Employee previously raised concerns with their supervisor |
+| [SAFETY_CONCERNS] | Employee complaint form | Employee reports feeling uncomfortable attending team meetings |
+| [ADDITIONAL_INFORMATION] | Additional information provided to HR | Employee has requested HR assistance |
 
 ## 4. Intended Task
 The intended task is to support the initial review and categorisation stage of the employee complaint-handling process. HR staff can use this prompt to organise incoming complaints, identify the main concerns and determine which organisations policies may need to be reviewed before deciding how to proceed. This helps HR manage complaints in a more structured and consistent way.
