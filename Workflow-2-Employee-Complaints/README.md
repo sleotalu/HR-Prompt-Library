@@ -26,6 +26,6 @@ This section supports HR in managing employee complaints through a structured an
 ## Prompts
 | **File** | **Prompt** | **Status** |
 |---|---|---|
-| [Prompt-05-Employee-Complaint-Categorisation.md](Prompt-05-Employee-Complaint-Categorisation.md) | P05 – Employee Complaint Categorisation | 🔄 In progress |
-| [Prompt-06-HR-Policy-Review.md](Prompt-06-HR-Policy-Review.md) | P06 – HR Policy Review | 🔄 In progress |
-| [Prompt-07-Employee-Complaint-Response.md](Prompt-07-Employee-Complaint-Response.md) | P07 – Employee Complaint Response | 🔄 In progress |
+| [Prompt-05-Employee-Complaint-Categorisation.md](https://github.com/sleotalu/HR-Prompt-Library/blob/4cad69c3cf70904bb765c7a4f5c10e1556590476/Workflow-2-Employee-Complaints/Prompt-05-Complaint-Categorisation.md) | P05 – Employee Complaint Categorisation | 🔄 In progress |
+| [Prompt-06-HR-Policy-Review.md](https://github.com/sleotalu/HR-Prompt-Library/blob/4cad69c3cf70904bb765c7a4f5c10e1556590476/Workflow-2-Employee-Complaints/Prompt-06-HR-Policy-Review.md) | P06 – HR Policy Review | 🔄 In progress |
+| [Prompt-07-Employee-Complaint-Response.md](https://github.com/sleotalu/HR-Prompt-Library/blob/4cad69c3cf70904bb765c7a4f5c10e1556590476/Workflow-2-Employee-Complaints/Prompt-07-Complaint-Response.md) | P07 – Employee Complaint Response | 🔄 In progress |
