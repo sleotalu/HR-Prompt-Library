@@ -13,7 +13,11 @@ This document records the iterative development of Prompt 05: Employee Complaint
 ## 3. Version Comparison Screenshot
 The screenshot below demonstrates the development of Prompt 05, highlighting the improvements made to complaint categorisation, neutral language, information clarification and identification of potential urgency or safety concerns.
 
-[] ()
+(https://github.com/sleotalu/HR-Prompt-Library/blob/304a7d689132220ef2328452afd6b303aa26e256/Evaluation-and-Iterative-Evidence/Prompt-05-Comparison-Version1.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/304a7d689132220ef2328452afd6b303aa26e256/Evaluation-and-Iterative-Evidence/Prompt-05-Comparison-Version2.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/304a7d689132220ef2328452afd6b303aa26e256/Evaluation-and-Iterative-Evidence/Prompt-05-Comparison-Version3.png)
 
 ## 4. Prompt Versions
 
