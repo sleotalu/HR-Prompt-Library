@@ -11,7 +11,12 @@ This document record the iterative development of Prompt 09 - Employee Developme
 | V1.2 | Added measurable outcomes, realistic timeframes and safeguards against unsuitable recommendations. | Improve development planning reliability and ensure appropriate HR oversight. |
 
 ## 3. Version Comparison Screenshot
-The screenshots below provide visual evidence of the prompt's development across its versions. Two comparisons are included to show the changes made throughout the iteration process.
+The screenshots below provide visual evidence of the prompt's development across its versions. Shown are screenshots comparing V1.1 (final chosen prompt) and V1.2. V1.1 is represented by Checkpoint 01 and V1.2 is represented by Checkpoint 02.
+
+Prompt inputs: (https://github.com/sleotalu/HR-Prompt-Library/blob/4b2857133f50831001b8491b670516e4e6cf178e/Evaluation-and-Iterative-Evidence/Prompt-09-Comparison-Version-Inputs.png)
+
+Prompt outputs: (https://github.com/sleotalu/HR-Prompt-Library/blob/4b2857133f50831001b8491b670516e4e6cf178e/Evaluation-and-Iterative-Evidence/Prompt-09-Comparison-Versions-Output1.png)
+(https://github.com/sleotalu/HR-Prompt-Library/blob/4b2857133f50831001b8491b670516e4e6cf178e/Evaluation-and-Iterative-Evidence/Prompt-09-Comparison-Version-Output2.png)
 
 ## 4. Prompt Versions
 
