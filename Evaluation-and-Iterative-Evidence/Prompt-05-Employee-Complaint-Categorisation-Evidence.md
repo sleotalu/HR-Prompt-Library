@@ -11,7 +11,7 @@ This document records the iterative development of Prompt 05: Employee Complaint
 | V1.2 | Added urgency identification, privacy safeguards and human review requirements. | Improve complaint handling and reduce risks associated with sensitive workplace issues. |
 
 ## 3. Version Comparison Screenshot
-The screenshot below demonstrates the development of Prompt 05, highlighting the improvements made to complaint categorisation, neutral language, information clarification and identification of potential urgency or safety concerns.
+The screenshot below demonstrates the development of Prompt 05, highlighting the improvements made to complaint categorisation, neutral language, information clarification and identification of potential urgency or safety concerns. Specifically between V1.1 and V1.2 as it only allows to compare two checkpoints at a time.
 
 (https://github.com/sleotalu/HR-Prompt-Library/blob/304a7d689132220ef2328452afd6b303aa26e256/Evaluation-and-Iterative-Evidence/Prompt-05-Comparison-Version1.png)
 
