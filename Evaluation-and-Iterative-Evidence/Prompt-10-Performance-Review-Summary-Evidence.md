@@ -13,7 +13,13 @@ The iterations focused on establishing a basic performance review structure, con
 | V1.2 | Added safeguards against inaccurate development progress, unsupported conclusions and privacy risks. | Improve reliability and ensure appropriate HR oversight. |
 
 ## 3. Version Comparison Screenshot
-The screenshots below provide visual evidence of the prompt's development across two specific versions due to being limited to compare between two checkpoints at a time.
+The screenshots below provide visual evidence of the prompt's development across two specific versions due to being limited to compare between two checkpoints at a time. The following screenshots are comparisons between V1.0 (Checkpoint 01) and V1.2 (Final Prompt) (Checkpoint 02). Including the prompt inputs and outputs of both.
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/50f3c0100f0ce92fe305877f1b92b14579ab1d08/Evaluation-and-Iterative-Evidence/Prompt-10-Comparison-Version1.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/50f3c0100f0ce92fe305877f1b92b14579ab1d08/Evaluation-and-Iterative-Evidence/Prompt-10-Comparison-Version2.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/50f3c0100f0ce92fe305877f1b92b14579ab1d08/Evaluation-and-Iterative-Evidence/Prompt-10-Comparison-Version3.png)
 
 ## 4. Prompt Versions
 ``` text
