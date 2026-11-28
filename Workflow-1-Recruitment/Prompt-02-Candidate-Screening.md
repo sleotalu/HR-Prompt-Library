@@ -137,4 +137,4 @@ The prompt should produce accurate, relevant and consistent screening reports wh
 
 **Current Version:** V1.2
 
-**Status:** Ready for testing and evaluation.
+**Status:** TESTED.
