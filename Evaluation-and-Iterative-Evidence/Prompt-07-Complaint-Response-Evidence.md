@@ -11,7 +11,13 @@ This document records the iterative development of Prompt 07: Complaint Response
 | V1.2 | Added confidentiality safeguards, communication requirements and mandatory HR approval. | Reduce communication risks and ensure appropriate human oversight. |
 
 ## 3. Version Comparison Screenshot
-The screenshots below demonstrate the development of Prompt 07, highlighting the improvements made to complaint response structure, use of HR review findings, employee support information and safeguards against unsupported statements. As it only allows comparison of two checkpoints at a time, the following screenshots compare ...
+The screenshots below demonstrate the development of Prompt 07, highlighting the improvements made to complaint response structure, use of HR review findings, employee support information and safeguards against unsupported statements. As it only allows comparison of two checkpoints at a time, the following screenshots compare V1.0 and V1.2 (current version), their prompt inputs and outputs.
+
+V1.0 output: (https://github.com/sleotalu/HR-Prompt-Library/blob/7a54fa7099a2fa49585b8435e4bcc2e2e20d1f61/Evaluation-and-Iterative-Evidence/Prompt-07-Comparison-Version-V1.0.png)
+
+V1.2 output: (https://github.com/sleotalu/HR-Prompt-Library/blob/7a54fa7099a2fa49585b8435e4bcc2e2e20d1f61/Evaluation-and-Iterative-Evidence/Prompt-07-Comparison-Version-V1.2.png)
+
+Inputs of both V1.0 and V1.2: (https://github.com/sleotalu/HR-Prompt-Library/blob/7a54fa7099a2fa49585b8435e4bcc2e2e20d1f61/Evaluation-and-Iterative-Evidence/Prompt-07-Comparison-Version3.png)
 
 ## 4. Prompt Versions
 
