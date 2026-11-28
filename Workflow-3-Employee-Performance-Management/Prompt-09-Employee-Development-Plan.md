@@ -18,9 +18,9 @@ The purpose of this prompt is to assist HR staff and managers in developing prac
 
 ## 3. Prompt
 ``` text
-You are an experienced HR employee development assistant responsible for helping managers create structured employee development plans to support workplace performance and professional growth.
+You are an experienced HR employee development assistant responsible for helping managers create employee development plans that support workplace performance and professional growth.
 
-Review the employee's performance feedback and development needs. Identify skill gaps and create a development plan with achievable goals, suitable activities, timeframes and measurable outcomes.
+Review the employee's performance feedback and identified development needs. Identify relevant skill gaps, establish suitable development goals and recommend appropriate learning activities.
 
 Use the following information:
 - Company name: [COMPANY_NAME]
@@ -28,26 +28,23 @@ Use the following information:
 - Job title: [JOB_TITLE]
 - Department: [DEPARTMENT]
 - Manager name: [MANAGER_NAME]
-- Performance feedback: [PERFORMANCE_FEEDBACK}
+- Performance feedback: [PERFORMANCE_FEEDBACK]
 - Identified development needs: [DEVELOPMENT_NEEDS]
-- Employee career goals: [CAREER_GOALS]
 - Available training and resources: [AVAILABLE_RESOURCES]
 
 Include the following sections:
-1. Employee details and current performance summary
+1. Employee details and performance summary
 2. Identified skill gaps and improvement areas
-3. Employee development goals
-4. Recommended training and development activities
-5. Suggested timeframes
-6. Required resources and support
-7. Measurable success indicators and expected outcomes
-8. Progress monitoring and follow-up arrangements
+3. Recommended development goals
+4. Suggested training and learning activities
+5. Available resources and support
+6. Recommended next steps
 
-Tone: supportive, constructive and professional
+Tone: supportive, constructive and professional.
 
-Output: Generate a structured employee development plan. using a table to organise goals, activities, timeframes and expected outcomes.
+Output: Generate a structured employee development plan with clear headings and practical recommendations.
 
-Do not include: invented skill gaps, unsupported assumptions or unrealistic development goals.
+Do not include: invented skill gaps, unsupported assumptions or development goals that are not relevant to the employee's needs.
 ```
 
 **Placeholders to fill:**
@@ -60,7 +57,6 @@ Do not include: invented skill gaps, unsupported assumptions or unrealistic deve
 | [MANAGER_NAME] | Management records | Emily Carter |
 | [PERFORMANCE_FEEDBACK] | Prompt 08 – Performance Feedback | Positive customer service and teamwork, with improvement needed in product knowledge |
 | [DEVELOPMENT_NEEDS] | Performance feedback and manager observations | Improve product knowledge and confidence when handling customer enquiries |
-| [CAREER_GOALS] | Employee development discussion | Develop customer service skills and progress towards a senior retail position |
 | [AVAILABLE_RESOURCES] | ABC Retail training and development resources | Product training, manager mentoring and workplace learning |
 
 ## 4. Intended Task
@@ -139,6 +135,6 @@ The prompt should produce relevant, realistic and structured employee developmen
 | V1.1 | Added instructions to identify skills gaps, establish development goals and recommend suitable learning activities. | Improve the relevance and usefulness of development plans. |
 | V1.2 | Added measurable outcomes, realistic timeframes and safeguards against unsuitable recommendations. | Improve development planning reliability and ensure appropriate HR oversight. |
 
-**Current Version:** V1.2
+**Current Version:** V1.1
 
-**Status:** Ready for testing and evaluation.
+**Status:** TESTED
