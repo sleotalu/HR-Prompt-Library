@@ -44,11 +44,14 @@ Output: Generate a structured employee development plan using clear headings and
 Do not include: invented employee information, unsupported assumptions or unrealistic development recommendations.
 ```
 
-### Version 1.1 - Improved Prompt
-``` text
-You are an experienced HR employee development assistant responsible for helping managers create employee development plans that support workplace performance and professional growth.
+### Version 1.1 - Improved Prompt (Final Version)
+[View Prompt 09 - Employee Development Plan] (https://github.com/sleotalu/HR-Prompt-Library/blob/fbb8f3fbf69f4ecdc9821c1454f9ef188a010c5e/Workflow-3-Employee-Performance-Management/Prompt-09-Employee-Development-Plan.md)
 
-Review the employee's performance feedback and identified development needs. Identify relevant skill gaps, establish suitable development goals and recommend appropriate learning activities.
+### Version 1.2 - Improved
+``` text
+You are an experienced HR employee development assistant responsible for helping managers create structured employee development plans to support workplace performance and professional growth.
+
+Review the employee's performance feedback and development needs. Identify skill gaps and create a development plan with achievable goals, suitable activities, timeframes and measurable outcomes.
 
 Use the following information:
 - Company name: [COMPANY_NAME]
@@ -56,27 +59,27 @@ Use the following information:
 - Job title: [JOB_TITLE]
 - Department: [DEPARTMENT]
 - Manager name: [MANAGER_NAME]
-- Performance feedback: [PERFORMANCE_FEEDBACK]
+- Performance feedback: [PERFORMANCE_FEEDBACK}
 - Identified development needs: [DEVELOPMENT_NEEDS]
+- Employee career goals: [CAREER_GOALS]
 - Available training and resources: [AVAILABLE_RESOURCES]
 
 Include the following sections:
-1. Employee details and performance summary
+1. Employee details and current performance summary
 2. Identified skill gaps and improvement areas
-3. Recommended development goals
-4. Suggested training and learning activities
-5. Available resources and support
-6. Recommended next steps
+3. Employee development goals
+4. Recommended training and development activities
+5. Suggested timeframes
+6. Required resources and support
+7. Measurable success indicators and expected outcomes
+8. Progress monitoring and follow-up arrangements
 
-Tone: supportive, constructive and professional.
+Tone: supportive, constructive and professional
 
-Output: Generate a structured employee development plan with clear headings and practical recommendations.
+Output: Generate a structured employee development plan. using a table to organise goals, activities, timeframes and expected outcomes.
 
-Do not include: invented skill gaps, unsupported assumptions or development goals that are not relevant to the employee's needs.
+Do not include: invented skill gaps, unsupported assumptions or unrealistic development goals.
 ```
-
-### Version 1.2 - Final Employee Development Plan Prompt
-[View Final Prompt 09 - Employee Development Plan] (https://github.com/sleotalu/HR-Prompt-Library/blob/fa9d472f3bb78b77724e2d09f75b03679c634f66/Workflow-3-Employee-Performance-Management/Prompt-09-Employee-Development-Plan.md)
 
 ## 5. Summary of Improvements
 
@@ -96,9 +99,9 @@ Do not include: invented skill gaps, unsupported assumptions or development goal
 - Improved the overall structure to make development plans easier for managers to implement and monitor
 
 ## 6. Final Outcome
-Version 1.2 was selected as the final prompt because it provides a more complete and practical approach to employee development planning. It uses performance feedback and identified development needs to establish relevant goals, recommend suitable learning activities and set achievable timeframes. The final version also includes measurable outcomes and progress monitoring arrangements, allowing managers to review employee development and identify whether the planned activities are supporting workplace performance and professional growth.
+Version 1.1 was selected as the final prompt because it provides a more complete and practical approach to employee development planning. It uses performance feedback and identified development needs to establish relevant goals, recommend suitable learning activities and set achievable timeframes. The final version also includes measurable outcomes and progress monitoring arrangements, allowing managers to review employee development and identify whether the planned activities are supporting workplace performance and professional growth.
 
-The prompt also instructs the Ai to avoid invented skill gaps, unsupported assumptions and unrealistic development goals. This support more relevant and reliable development plans.
+The prompt also instructs the AI to avoid invented skill gaps, unsupported assumptions and unrealistic development goals. This support more relevant and reliable development plans.
 
 ## 7. Related Workflow Prompts
 Prompt 09 is part of Workflow 3 - Employee Performance Management. It uses performance feedback to identify development opportunities and supports the next stage of the employee performance management process.
