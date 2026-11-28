@@ -11,7 +11,15 @@ This document records the iterative development of Prompt 06: HR Policy Review. 
 | V1.2 | Added safeguards against unsupported conclusions, outdated information and privacy risks. | Improve reliability and ensure appropriate HR oversight. |
 
 ## Version Comparison Screenshot
-This screenshot below demonstrates the development of Prompt 06, highlighting improvements made to policy comparisons, identification of relevant requirements and HR assessment safeguards. As it only allows comparison of two checkpoints at a time, the following screenshots compare ...
+This screenshot below demonstrates the development of Prompt 06, highlighting improvements made to policy comparisons, identification of relevant requirements and HR assessment safeguards. As it only allows comparison of two checkpoints at a time, the following screenshots compare V1.0 and V1.2.
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/af7260026dba3ff25fe482817b7e843b826dbe0c/Evaluation-and-Iterative-Evidence/Prompt-06-Comparison-Version1.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/af7260026dba3ff25fe482817b7e843b826dbe0c/Evaluation-and-Iterative-Evidence/Prompt-06-Comparison-Version2.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/af7260026dba3ff25fe482817b7e843b826dbe0c/Evaluation-and-Iterative-Evidence/Prompt-06-Comparison-Version3.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/af7260026dba3ff25fe482817b7e843b826dbe0c/Evaluation-and-Iterative-Evidence/Prompt-06-Comparison-Version4.png)
 
 ## 4. Prompt Versions
 
