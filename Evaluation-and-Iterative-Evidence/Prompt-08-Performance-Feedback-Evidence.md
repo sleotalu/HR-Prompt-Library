@@ -35,7 +35,6 @@ Use the following information:
 - Job title: [JOB_TITLE]
 - Review period: [REVIEW_PERIOD]
 - Manager observations: [MANAGER_OBSERVATIONS]
-- Performance information: [PERFORMANCE_INFORMATION]
 
 Include the following sections:
 1. Employee role and review period
