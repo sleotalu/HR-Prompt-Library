@@ -12,7 +12,11 @@ This document records the iterative development of Prompt 02: Candidate Screenin
 
 ## 3. Version Comparison Screenshot
 The screenshot below demonstrates the development of Prompt 02, highlighting the improvements made to candidate screening fairness, accuracy and consistency.
+(https://github.com/sleotalu/HR-Prompt-Library/blob/61842512b7a17297dcde49562a092c3970ff737d/Evaluation-and-Iterative-Evidence/Prompt-02-Comparison-Version1.png)
 
+(https://github.com/sleotalu/HR-Prompt-Library/blob/61842512b7a17297dcde49562a092c3970ff737d/Evaluation-and-Iterative-Evidence/Prompt-02-Comparison-Version2.png)
+
+(https://github.com/sleotalu/HR-Prompt-Library/blob/61842512b7a17297dcde49562a092c3970ff737d/Evaluation-and-Iterative-Evidence/Prompt-02-Comparison-Version3.png)
 
 ## 4. Prompt Versions
 
