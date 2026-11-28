@@ -11,15 +11,13 @@ This document records the iterative development of Prompt 08: Performance Feedba
 | V1.2 | Added safeguards against bias, unsupported judgements and privacy risks. | Improve reliability and ensure appropriate HR oversight. |
 
 ## Version Comparison Screenshot
-The screenshots below demonstrate the development of Prompt 08, highlighting the improvements made to performance feedback structure, identification of employee strengths and improvement areas, and practical development recommendations. As it only allows comparison of two checkpoints at a time, the following screenshots compare V1.1 and V1.2.
+The screenshots below demonstrate the development of Prompt 08, highlighting the improvements made to performance feedback structure, identification of employee strengths and improvement areas, and practical development recommendations. As it only allows comparison of two checkpoints at a time, the following screenshots compare V1.0 and V1.2 involving their prompt inputs and outputs.
 
-()
+V1.0 prompt output: (https://github.com/sleotalu/HR-Prompt-Library/blob/b37c35ec75b20d63dab017001dbbe81ff1581a56/Evaluation-and-Iterative-Evidence/Prompt-08-Comparison-Version-V1.0.png)
 
-()
+V1.2 prompt output: (https://github.com/sleotalu/HR-Prompt-Library/blob/b37c35ec75b20d63dab017001dbbe81ff1581a56/Evaluation-and-Iterative-Evidence/Prompt-08-Comparsion-Version-V1.2.png)
 
-()
-
-()
+V1.0 and V1.2 prompt input: (https://github.com/sleotalu/HR-Prompt-Library/blob/b37c35ec75b20d63dab017001dbbe81ff1581a56/Evaluation-and-Iterative-Evidence/Prompt-08-Comparison-Version3.png)
 
 ## 4. Prompt Versions
 
