@@ -11,8 +11,10 @@ This document records the iterative development of Prompt 04: Candidate Communic
 | V1.2 | Added privacy instructions, accuracy checks and HR approval requirements. | Reduce communication risks and maintain human oversight. |
 
 ## 3. Version Comparison Screenshot
-This screenshot below demonstrates the development of Prompt 04 that highlight the improvements made to recruitment communication types, message structure and HR approval requirements.
+This screenshot below demonstrates the development of Prompt 04 that highlight the improvements made to recruitment communication types, message structure and HR approval requirements. As it only allows to compare two checkpoints at a time, the following screenshot compares V1.0 and V1.2. 
+(https://github.com/sleotalu/HR-Prompt-Library/blob/157031a14cbe5435ec07e08c5853e4fea68c9375/Evaluation-and-Iterative-Evidence/Prompt-04-Comparison-Version1.png)
 
+(https://github.com/sleotalu/HR-Prompt-Library/blob/157031a14cbe5435ec07e08c5853e4fea68c9375/Evaluation-and-Iterative-Evidence/Prompt-04-Comparison-Version2.png)
 
 ## 4. Prompt Versions
 
