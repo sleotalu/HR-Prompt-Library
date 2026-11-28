@@ -68,7 +68,7 @@ Output: A structured job description suitable for a recruitment advertisement an
 ```
 
 ### V1.2 - Refined Job Description Generator
-[View Final Prompt 01 - Job Description Generator] (https://github.com/sleotalu/HR-Prompt-Library/blob/1b697dc9e1a1c6fe557981bebb71657aa744acf2/Workflow-1-Recruitment/Prompt-01-Job-Description.md)
+[View Final Prompt 01 - Job Description] (https://github.com/sleotalu/HR-Prompt-Library/blob/1b697dc9e1a1c6fe557981bebb71657aa744acf2/Workflow-1-Recruitment/Prompt-01-Job-Description.md)
 
 ## 5. Summary of Improvements
 
