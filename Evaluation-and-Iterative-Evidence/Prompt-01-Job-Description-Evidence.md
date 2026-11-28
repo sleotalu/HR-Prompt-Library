@@ -11,6 +11,8 @@ This document records the iterative development of Prompt 01: Job Description Ge
 | V1.2 | Added gender-neutral language requirements, instructions to avoid discriminatory wording, and safeguards against inventing missing company or job information. | Improve inclusiveness, accuracy and reliability of generated job descriptions. |
 
 ## 3. Version Comparison Screenshot
+The screenshot below demonstrates the development of Prompt 01 between V1.0 and V1.2 (current), highlighting the improvements made.
+
 [View Prompt 01 Version Comparison Screenshot] (https://github.com/sleotalu/HR-Prompt-Library/blob/0e1cc93f14370a37b1179b39274bbae56d828eba/Evaluation-and-Iterative-Evidence/Prompt-01-Version-Comparison.png) 
 
 ## 4. Prompt Versions
