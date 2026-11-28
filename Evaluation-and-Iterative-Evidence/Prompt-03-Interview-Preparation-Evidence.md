@@ -12,7 +12,7 @@ This document records the iterative development of Prompt 03: Interview Preparat
 
 ## 3. Version Comparison Screenshot 
 The screenshot below demonstrates the development of Prompt 03, highlighting the improvements made to interview question variety, structure and candidate assessment.
-
+(https://github.com/sleotalu/HR-Prompt-Library/blob/67844daa9a6e53e539316169e9533fc18195ebe4/Evaluation-and-Iterative-Evidence/Prompt-03-Comparison-Version.png)
 
 ## 4. Prompt Versions
 
